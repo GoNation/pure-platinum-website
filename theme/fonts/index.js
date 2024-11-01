@@ -1,6 +1,6 @@
 export const fonts = {
-  body: 'Roboto, system-ui, sans-serif',
-  heading: 'Roboto, system-ui, sans-serif',
-  links: 'Roboto, system-ui, sans-serif',
-  accent: 'Roboto, cursive, system-ui, sans-serif',
+  body: 'Libre Baskerville, serif',
+  heading: 'Libre Baskerville, serif',
+  links: 'Libre Baskerville, serif',
+  accent: 'Libre Baskerville, serif',
 };

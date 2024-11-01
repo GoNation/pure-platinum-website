@@ -1,0 +1,26 @@
+{
+  "name": "Private Parties",
+  "basicInfo": {
+    "seoPageTitle": "Host Your Private Party at Pure Platinum | VIP Packages",
+    "pageDescription": "Celebrate your next event in style with exclusive private party packages at Pure Platinum. VIP bottle service and a night to remember!"
+  },
+  "navVisibility": {
+    "order": 3
+  },
+  "advancedSettings": {
+    "fetchingStrategy": "static",
+    "dataTypes": {
+      "stories": true,
+      "shout": true,
+      "poweredImages": true,
+      "about": true,
+      "gallery": true
+    }
+  },
+  "pageComponents": [
+    {
+      "componentName": "menu",
+      "configName": "menuConfigA"
+    }
+  ]
+}

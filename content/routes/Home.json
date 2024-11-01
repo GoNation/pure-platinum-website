@@ -2,8 +2,8 @@
   "name": "Home",
   "basicInfo": {
     "path": "/",
-    "seoPageTitle": "",
-    "pageDescription": ""
+    "seoPageTitle": "Elite Nightlife Experience | Pure Platinum CT Strip Club",
+    "pageDescription": "Experience mesmerizing entertainment, VIP bottle service, and Connecticut's premier nightlife at Pure Platinum. Unforgettable nights await!"
   },
   "heroConfig": {
     "hidePageHero": true
@@ -24,11 +24,45 @@
   },
   "pageComponents": [
     {
-      "componentName": "Gallery",
-      "identifier": "Homepage Hero",
+      "componentName": "Hero",
+      "storyName": "homepage hero activity",
+      "configName": "heroConfig",
+      "variation": "heroConfig"
+    },
+    {
+      "componentName": "ShoutCard"
+    },
+    {
+      "componentName": "SideBySideImage",
+      "storyName": "homepage about story",
+      "sideBySideVariation": "default",
+      "contentVariation": "sideBySideReversed",
+      "imageVariation": "default",
       "config": {
-        "id": "gallery"
+        "reversed": false,
+        "ignoreQuery": true
       }
+    },
+    {
+      "componentName": "SideBySideImage",
+      "storyName": "private parties story",
+      "sideBySideVariation": "default",
+      "contentVariation": "sideBySideReversed",
+      "imageVariation": "default",
+      "config": {
+        "reversed": true,
+        "ignoreQuery": true
+      }
+    },
+    {
+      "componentName": "ContentBanner",
+      "storyName": "homepage drink menu",
+      "variation": "default",
+      "contentVariation": "darkText"
+    },
+    {
+      "componentName": "Parallax",
+      "identifier": "Homepage story 7"
     }
   ]
 }

@@ -1,8 +1,11 @@
+import { background } from '@chakra-ui/react';
+
 export const colors = {
-  primary: '#EFB50F',
-  secondary: '#EFB50F',
-  accent: '#0479C0',
-  dark: '#000000',
-  light: '#f7f7f7',
-  background: '#ffffff',
+  primary: '#8C50FF',
+  secondary: '#7DAFD6',
+  accent: '#8C50FF',
+  dark: '#030503',
+  light: '#FFFFFF',
+  background: '#030503',
+  backgroundAlt: '#1E0C40',
 };

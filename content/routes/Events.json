@@ -1,0 +1,25 @@
+{
+  "name": "Events",
+  "basicInfo": {
+    "seoPageTitle": "Exciting Events at Pure Platinum | Stay Tuned for Specials",
+    "pageDescription": "Explore the latest drink specials, themed events, and bar nights at Pure Platinum. Stay up to date with our elite nightlife happenings!"
+  },
+  "navVisibility": {
+    "order": 4
+  },
+  "advancedSettings": {
+    "fetchingStrategy": "static",
+    "dataTypes": {
+      "stories": true,
+      "shout": true,
+      "poweredImages": true,
+      "about": true,
+      "gallery": true
+    }
+  },
+  "pageComponents": [
+    {
+      "componentName": "Events"
+    }
+  ]
+}

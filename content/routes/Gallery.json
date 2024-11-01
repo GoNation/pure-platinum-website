@@ -1,12 +1,14 @@
 {
   "name": "Gallery",
   "basicInfo": {
-    "path": "/gallery",
-    "seoPageTitle": "",
-    "pageDescription": ""
+    "seoPageTitle": "Pure Platinum Gallery | Unforgettable Nightlife Moments",
+    "pageDescription": "View our gallery of unforgettable nightlife experiences at Pure Platinum. Get a glimpse of what awaits you at Connecticut’s top strip club."
   },
   "navVisibility": {
     "order": 4
+  },
+  "heroConfig": {
+    "hidePageHero": true
   },
   "advancedSettings": {
     "fetchingStrategy": "static",
@@ -20,7 +22,7 @@
   },
   "pageComponents": [
     {
-      "componentName": "AlbumGallery",
+      "componentName": "Gallery",
       "configName": "galleryConfig"
     }
   ]

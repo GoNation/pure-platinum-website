@@ -2,8 +2,8 @@
   "name": "About",
   "basicInfo": {
     "path": "/about",
-    "seoPageTitle": "",
-    "pageDescription": ""
+    "seoPageTitle": "About Pure Platinum | Premier Strip Club in Connecticut",
+    "pageDescription": "Discover the ultimate nightlife experience at Pure Platinum. From special events to VIP service, we redefine elite entertainment in CT."
   },
   "navVisibility": {
     "order": 1
@@ -20,10 +20,15 @@
   },
   "pageComponents": [
     {
-      "componentName": "ContentBanner",
-      "storyName": "about page",
-      "variation": "default",
-      "contentVariation": "darkText"
+      "componentName": "SideBySideImage",
+      "storyName": "Homepage Story 1 activity",
+      "sideBySideVariation": "default",
+      "contentVariation": "sideBySideReversed",
+      "imageVariation": "default",
+      "config": {
+        "reversed": false,
+        "ignoreQuery": true
+      }
     }
   ]
 }
