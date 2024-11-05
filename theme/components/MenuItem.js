@@ -2,10 +2,15 @@ export const MenuItem = {
   baseStyle: {
     container: {
       position: 'relative',
-      width: ['100%', '', '50%'],
+      width: ['100%', '', ''],
       mb: 4,
       pr: [0, 2, 4],
       borderRadius: 'lg',
+      textAlign: 'center',
+      display: 'flex',
+      alignItems: 'center',
+      flexDirection: 'column',
+      justifyContent: 'center',
     },
     imageAspectRatio: {
       position: 'absolute',
@@ -46,16 +51,16 @@ export const MenuItem = {
     heading: {
       fontSize: ['md', 'xl'],
       fontFamily: 'body',
-      color: 'gray.800',
+      color: 'white',
       display: 'inline-flex',
       alignItems: 'center',
     },
     description: {
       fontSize: ['sm', 'md'],
-      color: 'gray.600',
+      color: 'white',
       lineHeight: 'tall',
       fontFamily: 'body',
-      maxWidth: 450,
+      //   maxWidth: 450,
     },
   },
   variants: {},

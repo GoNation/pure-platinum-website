@@ -31,9 +31,14 @@ export default function ShoutCard({ data }) {
 
   return (
     <Box
+      // Add a purple neon border
+
       p={[8, 8, 8]}
       py={[12, '', '', 12]}
-      bg={'gray.800'}
+      bg={'dark'}
+      minH={'75vh'}
+      display={'flex'}
+      alignItems={'center'}
       sx={{
         position: 'relative',
         _before: {
@@ -50,13 +55,15 @@ export default function ShoutCard({ data }) {
     >
       <Flex
         direction={isLargerThan768 ? 'row' : 'column'}
-        borderRadius="md"
-        boxShadow="xl"
         maxW={'4xl'}
         mx={'auto'}
         pos={'relative'}
         // mt={[0, 0, -32]}
         zIndex={99}
+        // purple neon border and shadow
+        border="2px solid #4B0082"
+        borderRadius="md"
+        boxShadow="0 0 10px #4B0082, 0 0 20px #4B0082, 0 0 40px #4B0082, 0 0 80px #4B0082, 0 0 120px #4B0082, 0 0 200px #4B0082, 0 0 300px #4B0082, 0 0 400px #4B0082"
       >
         <Box width={isLargerThan768 ? '40%' : '100%'} order={[1, '', '', 1]}>
           {isLoading ? (
@@ -91,18 +98,16 @@ export default function ShoutCard({ data }) {
                 p={2}
                 textAlign={'left'}
                 fontWeight={'bold'}
-                textTransform={'none'}
               >
                 {title || 'Recent Shout'}
               </Heading>
               <Box>
                 <Text
-                  fontSize={['md', '', 'lg']}
                   fontFamily="body"
                   color="white"
                   my={2}
                   textAlign={'left'}
-                  fontWeight={400}
+                  fontWeight={300}
                 >
                   {text}
                 </Text>

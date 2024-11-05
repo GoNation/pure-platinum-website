@@ -2,8 +2,8 @@ const baseStyle = {
   containerStyle: {
     display: 'flex',
     flexDirection: 'column',
-    alignItems: 'center',
-    justifyContent: 'center',
+    alignItems: 'flex-start',
+    justifyContent: 'flex-start',
     p: 4,
     position: 'relative',
     zIndex: 99,
@@ -23,17 +23,37 @@ const baseStyle = {
     lineHeight: 1.75,
     fontSize: 'md',
     fontWeight: 500,
+    color: 'white',
   },
   button: {
     mt: 4,
     mx: 2,
-    variant: 'solid',
+    variant: 'outline',
   },
 };
 
 export const ContentComponent = {
   baseStyle,
   variants: {
+    hero: {
+      titleStyle: {
+        fontSize: ['2xl', '3xl', '3xl', '5xl'],
+        fontWeight: '200',
+        // Add a purple text glow neon
+        textShadow:
+          '0 0 10px #4B0082, 0 0 20px #4B0082, 0 0 40px #4B0082, 0 0 80px #4B0082, 0 0 120px #4B0082, 0 0 200px #4B0082, 0 0 300px #4B0082, 0 0 400px #4B0082',
+        textAlign: 'center',
+        mx: 'auto',
+      },
+      subtitleStyle: {
+        fontSize: 'xl',
+        fontWeight: 'bold',
+        textShadow:
+          '0 0 10px #4B0082, 0 0 20px #4B0082, 0 0 40px #4B0082, 0 0 80px #4B0082, 0 0 120px #4B0082, 0 0 200px #4B0082, 0 0 300px #4B0082, 0 0 400px #4B0082',
+        textAlign: 'center',
+        mx: 'auto',
+      },
+    },
     darkText: {
       containerStyle: {
         bg: 'gray.800',

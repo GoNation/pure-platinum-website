@@ -1,5 +1,10 @@
 export const Heading = {
-  baseStyle: {},
+  baseStyle: {
+    textShadow:
+      '0 0 10px #4B0082, 0 0 20px #4B0082, 0 0 40px #4B0082, 0 0 80px #4B0082, 0 0 120px #4B0082, 0 0 200px #4B0082, 0 0 300px #4B0082, 0 0 400px #4B0082',
+    textTransform: 'uppercase',
+    color: 'white',
+  },
   variants: {
     smallTitle: {
       fontSize: ['lg', 'xl', '', '2xl'],

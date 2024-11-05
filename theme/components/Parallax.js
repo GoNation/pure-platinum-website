@@ -19,9 +19,12 @@ export const Parallax = {
         textShadow: '2px 2px 4px rgba(0,0,0,.3)',
       },
       title: {
-        fontSize: ['3xl', '3xl', '3xl', '5xl', '6xl', '7xl'],
+        fontSize: ['2xl', '3xl'],
+        maxWidth: 1200,
+        mx: 'auto',
         textShadow: '2px 2px 4px rgba(0,0,0,.3)',
         textTransform: 'uppercase',
+        mb: 8,
       },
       subtitle: {
         fontSize: ['lg', 'lg', 'lg', 'xl', '2xl'],
@@ -34,9 +37,7 @@ export const Parallax = {
         mb: 4,
       },
       button: {
-        variant: 'primary',
-        bg: 'white',
-        color: 'blue.500',
+        variant: 'outline',
       },
     },
   },

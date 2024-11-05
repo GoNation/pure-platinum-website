@@ -37,22 +37,21 @@ export const Button = {
       },
     },
     outline: {
+      //   A white text transparent button with a purple border. When hovered we add a purple glow effect
       bg: 'transparent',
-      border: '2px solid',
-      borderColor: 'white',
       color: 'white',
-      fontSize: ['sm', 'md', 'lg', 'xl'],
-      py: 6,
-      px: 12,
-
+      borderColor: 'purple',
+      borderWidth: 2,
+      transition: 'all 1.5s ease',
+      letterSpacing: 2,
+      px: [4, 6],
+      py: 5,
       _hover: {
-        bg: 'gray.900',
-        borderColor: 'gray.900',
-        color: 'primary',
-      },
-      _active: {
-        bg: 'dark',
+        bg: 'purple',
         color: 'white',
+        boxShadow:
+          '0 0 10px #4B0082, 0 0 20px #4B0082, 0 0 40px #4B0082, 0 0 80px #4B0082, 0 0 120px #4B0082, 0 0 200px #4B0082, 0 0 300px #4B0082, 0 0 400px #4B0082',
+        transition: 'all 1.5s ease',
       },
     },
   },

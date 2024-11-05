@@ -86,9 +86,6 @@ export default function BenjaminFooter({ business, routes }) {
       borderTop={'2px solid'}
       borderColor={'primary'}
       py={[8, '', 0]}
-      backgroundImage={`linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(${buildCover(
-        business
-      )})`}
       backgroundSize={'cover'}
       backgroundPosition={'center'}
       backgroundRepeat={'no-repeat'}

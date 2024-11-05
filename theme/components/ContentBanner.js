@@ -8,6 +8,9 @@ export const ContentBanner = {
       backgroundPosition: 'center',
       backgroundSize: 'cover',
       backgroundAttachment: ['none', 'none', 'fixed'],
+      display: 'flex',
+      justifyContent: 'center',
+      alignItems: 'center',
     },
     imageOverlay: {
       pos: 'absolute',

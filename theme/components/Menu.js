@@ -3,7 +3,7 @@ export const Menu = {
     container: {
       py: 6,
       px: 4,
-      backgroundColor: 'light',
+      backgroundColor: 'black',
       // Optional background image, uncomment if needed
       // backgroundImage: `url(https://www.transparenttextures.com/patterns/grilled-noise.png)`,
     },

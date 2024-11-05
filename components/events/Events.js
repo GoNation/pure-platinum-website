@@ -16,7 +16,7 @@ const Events = ({ businessData, singleEvents = [], recurringEvents = [] }) => {
     // Display a message and an icon when there are no events
     return (
       <Center flexDirection="row" py={32} px={4} alignItems={'center'}>
-        <Text fontSize="xl" mt={4} color="dark" fontFamily={'body'}>
+        <Text fontSize="xl" mt={4} color="primary" fontFamily={'body'}>
           No events currently scheduled. Stay tuned for updates!
         </Text>
       </Center>

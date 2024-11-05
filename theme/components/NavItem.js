@@ -2,7 +2,11 @@ export const NavItem = {
   baseStyle: {
     px: 4,
     fontSize: ['xs', 'sm', 'md'],
-    color: 'dark',
+    fontWeight: 'light',
+    color: 'white',
+    textTransform: 'uppercase',
+    letterSpacing: 'wide',
+    textShadow: '1px 1px 1px rgba(0,0,0,0.5)',
   },
   variants: {
     navRight: {}, // variant for right side nav items

@@ -37,15 +37,16 @@ const HoursByDay = ({ hours }) => {
       flexWrap={'wrap'}
       justifyContent={'center'}
       backgroundColor={'gray.800'}
-      color={'white'}
       py={[8, 8, 24]}
       flexDir={'column'}
-      bg={'white'}
-      backgroundImage={`url("https://www.transparenttextures.com/patterns/arches.png")`}
+      bg={'dark'}
     >
       <Box
         width={'100%'}
-        bg={'white'}
+        bg={'transparent'}
+        border={'2px solid'}
+        // neon purple border
+        borderColor={'#9400D3'}
         maxWidth={'lg'}
         mx={'auto'}
         px={4}
@@ -55,7 +56,7 @@ const HoursByDay = ({ hours }) => {
           textAlign={'center'}
           textTransform={'uppercase'}
           mb={4}
-          color={'gray.800'}
+          color={'primary'}
         >
           Hours
         </Heading>
@@ -82,18 +83,18 @@ const HoursByDay = ({ hours }) => {
                 fontSize={['md', 'lg']}
                 py={1}
                 px={2}
-                color={'gray.800'}
+                color={'white'}
               >
                 {dayName}
               </Text>
               <VStack ml={8} align="start" justify={'flex-end'}>
                 {daySlots.length === 0 ? (
-                  <Text textAlign={'center'} color={'gray.800'}>
+                  <Text textAlign={'center'} color={'white'}>
                     CLOSED
                   </Text>
                 ) : (
                   formatDayHours(daySlots).map((entry, index) => (
-                    <Text textAlign={'center'} key={index} color={'gray.800'}>
+                    <Text textAlign={'center'} key={index} color={'white'}>
                       {entry}
                     </Text>
                   ))

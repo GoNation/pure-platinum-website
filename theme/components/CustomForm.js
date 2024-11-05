@@ -7,7 +7,6 @@ export const CustomForm = {
       p: [4, 4, 12],
       maxW: ['2xl'],
       mx: 'auto',
-      bg: 'light',
       border: '1px solid',
       borderColor: 'gray.300',
       my: 8,
@@ -20,16 +19,23 @@ export const CustomForm = {
       mb: 1,
       fontWeight: 300,
       textTransform: 'capitalize',
-      color: 'gray.800',
+      color: 'white',
+    },
+    address: {
+      color: 'white',
+    },
+    phone: {
+      color: 'white',
     },
     infoSection: {
       my: 4,
       px: [8, 0],
       spacing: 2,
+      color: 'white',
     },
     desc: {
       mb: 4,
-      color: 'dark',
+      color: 'white',
     },
     grid: {
       gap: 4,

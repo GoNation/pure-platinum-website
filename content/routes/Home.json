@@ -58,11 +58,11 @@
       "componentName": "ContentBanner",
       "storyName": "homepage drink menu",
       "variation": "default",
-      "contentVariation": "darkText"
+      "contentVariation": null
     },
     {
       "componentName": "Parallax",
-      "identifier": "Homepage story 7"
+      "identifier": "events homepage story"
     }
   ]
 }

@@ -106,7 +106,12 @@ const MenuItem = ({ item, withDollar, sectionImagesCount, variant = null }) => {
           )}
         </Box>
 
-        <Box>
+        <Box
+          textAlign={'center'}
+          width={'100%'}
+          display={'flex'}
+          justifyContent={'center'}
+        >
           {item.variants?.length === 1 && (
             <Price withDollar={true} variants={item.variants} />
           )}

@@ -19,8 +19,8 @@
   },
   "pageComponents": [
     {
-      "componentName": "menu",
-      "configName": "menuConfigA"
+      "componentName": "Menu",
+      "configName": "menuConfigB"
     }
   ]
 }
