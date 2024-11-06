@@ -11,6 +11,7 @@ export const ContentBanner = {
       display: 'flex',
       justifyContent: 'center',
       alignItems: 'center',
+      overflow: 'hidden',
     },
     imageOverlay: {
       pos: 'absolute',

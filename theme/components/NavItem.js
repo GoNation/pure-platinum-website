@@ -1,9 +1,9 @@
 export const NavItem = {
   baseStyle: {
     px: 4,
-    fontSize: ['xs', 'sm', 'md'],
+    fontSize: ['lg', 'sm', 'md'],
     fontWeight: 'light',
-    color: 'white',
+    color: ['white'],
     textTransform: 'uppercase',
     letterSpacing: 'wide',
     textShadow: '1px 1px 1px rgba(0,0,0,0.5)',

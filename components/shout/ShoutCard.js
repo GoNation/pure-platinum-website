@@ -32,7 +32,7 @@ export default function ShoutCard({ data }) {
   return (
     <Box
       // Add a purple neon border
-
+      overflow={'hidden'}
       p={[8, 8, 8]}
       py={[12, '', '', 12]}
       bg={'dark'}

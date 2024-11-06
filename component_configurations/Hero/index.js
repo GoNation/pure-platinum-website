@@ -98,7 +98,7 @@ export const heroConfig = {
   heroImageStyle: {
     width: '100%', // Full width
     // minHeight: ['', '', '', 650],
-    height: ['50vh', '', '', '90vh'], // Full height
+    height: ['70vh', '', '', '90vh'], // Full height
     objectFit: 'cover',
     objectPosition: 'center',
   },

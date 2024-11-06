@@ -46,6 +46,7 @@ export const Button = {
       letterSpacing: 2,
       px: [4, 6],
       py: 5,
+      fontSize: ['md', 'lg', 'xl'],
       _hover: {
         bg: 'purple',
         color: 'white',

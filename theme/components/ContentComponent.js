@@ -13,9 +13,11 @@ const baseStyle = {
     fontWeight: 'bold',
     textTransform: 'uppercase',
     mb: 4,
+    textAlign: 'center',
   },
   subtitleStyle: {
     fontSize: 'xl',
+    textAlign: 'center',
     mb: 2,
   },
   bodyContainerStyle: {
@@ -24,11 +26,18 @@ const baseStyle = {
     fontSize: 'md',
     fontWeight: 500,
     color: 'white',
+    textAlign: 'center',
+    p: {
+      textAlign: 'center',
+    },
   },
   button: {
     mt: 4,
     mx: 2,
     variant: 'outline',
+    fontSize: 'xs',
+    // wrap text
+    whiteSpace: 'normal',
   },
 };
 

@@ -3,10 +3,11 @@ export const Navigation = {
     navigation: {
       gridTemplateColumns: 'repeat(12, 1fr)',
       alignItems: 'center',
-      position: 'fixed',
+      position: 'absolute',
       zIndex: 999,
       width: '100%',
       p: 2,
+      bg: 'rgba(0,0,0,.4)',
     },
     // Grid Item containers
     logoGridItem: {
@@ -32,6 +33,7 @@ export const Navigation = {
     // Logo styles
     logoContainer: {
       align: 'center',
+      maxWidth: [100, 100, 'unset'],
     },
     logo: {
       width: 150,
@@ -44,11 +46,12 @@ export const Navigation = {
       left: 0,
       width: '100vw',
       height: '100vh',
-      bg: 'gray.800',
+      bg: 'rgba(0,0,0,.9)',
       zIndex: 10, // Menu is underneath the hamburger icon
       display: 'flex',
       alignItems: 'center',
       justifyContent: 'center',
+      flexDirection: 'column',
     },
     hamburgerIconOpen: {
       position: 'fixed', // Fix the position of the hamburger icon
@@ -58,7 +61,7 @@ export const Navigation = {
     },
     hamburger: {
       size: 24,
-      color: 'red',
+      color: '#4b0082',
     },
     mobileMenuContent: {
       flexDirection: 'column',
@@ -67,7 +70,7 @@ export const Navigation = {
       textAlign: 'center',
       gap: 4,
       color: 'white',
-      fontSize: '2xl',
+      mt: 8,
     },
   },
   variants: {},
