@@ -2,7 +2,7 @@ const baseStyle = {
   containerStyle: {
     display: 'flex',
     flexDirection: 'column',
-    alignItems: 'flex-start',
+    alignItems: 'center',
     justifyContent: 'flex-start',
     p: 4,
     position: 'relative',
@@ -38,6 +38,7 @@ const baseStyle = {
     fontSize: 'xs',
     // wrap text
     whiteSpace: 'normal',
+    textAlign: 'center',
   },
 };
 
