@@ -39,6 +39,21 @@ class MyDocument extends Document {
         <Head>
           {googleFontsUrl && <link href={googleFontsUrl} rel="stylesheet" />}
           {this.renderCustomFonts()}
+          {/* Google Analytics */}
+          <script
+            async
+            src="https://www.googletagmanager.com/gtag/js?id=G-B19QE9YRTW"
+          ></script>
+          <script
+            dangerouslySetInnerHTML={{
+              __html: `
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+                gtag('config', 'G-B19QE9YRTW');
+              `,
+            }}
+          />
         </Head>
         <body>
           <Main />
